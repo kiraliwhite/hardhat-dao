@@ -55,6 +55,12 @@ module.exports = {
       { version: "0.4.19" },
       { version: "0.6.12" },
     ],
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+    },
   },
   namedAccounts: {
     deployer: {
